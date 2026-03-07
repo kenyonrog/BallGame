@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "BallGame\\x64\\Debug\\UiButton.obj",
+            "outputs": [
+                "BallGame\\x64\\Debug\\UiButton.h_DBE44B270969320.ifc.dt.module.json",
+                "BallGame\\x64\\Debug\\UiButton.h_DBE44B270969320.ifc.dt.d.json",
+                "BallGame\\x64\\Debug\\UiButton.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Roger\\source\\repos\\BallGame\\UiButton.h",
+                    "source-path": "c:\\users\\roger\\source\\repos\\ballgame\\uibutton.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

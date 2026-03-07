@@ -1,0 +1,4 @@
+C:\Users\Roger\source\repos\BallGame\x64\Debug\raylib.dll
+C:\Users\Roger\source\repos\BallGame\x64\Debug\glfw3.dll
+C:\Users\Roger\source\repos\BallGame\BallGame\x64\Debug\BallGame.vcxproj.Up2Date
+C:\Users\Roger\source\repos\BallGame\x64\Debug\box2dd.dll

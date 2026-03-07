@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "BallGame\\x64\\Debug\\UiTextButton.obj",
+            "outputs": [
+                "BallGame\\x64\\Debug\\UiTextButton.h_5DCB1C71D942047F.ifc.dt.module.json",
+                "BallGame\\x64\\Debug\\UiTextButton.h_5DCB1C71D942047F.ifc.dt.d.json",
+                "BallGame\\x64\\Debug\\UiTextButton.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Roger\\source\\repos\\BallGame\\UiTextButton.h",
+                    "source-path": "c:\\users\\roger\\source\\repos\\ballgame\\uitextbutton.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
