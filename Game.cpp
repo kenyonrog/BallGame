@@ -72,13 +72,8 @@ std::vector<Ball*> Game::CreateBallsWithinCircle(Circle* circle, b2ShapeDef shap
 		Ball* ball = new Ball(m_physicsManager.GetWorld(), bodyDef, shapeDef, (float)ballRadius);
 		ball->SetColor(Color{ (unsigned char)GetRandomValue(100, 255), (unsigned char)GetRandomValue(100, 255), (unsigned char)GetRandomValue(100, 255), 255 });
 
-		//float forceX{ float(GetRandomValue(-100 * 100, 100 * 20)) };
-		//float forceY{ float(GetRandomValue(-100 * 100, 100 * 20)) };
-
 		float forceX{ 1000 };
 		float forceY{ 1000 };
-
-		std::cout << "Force x: " << forceX << " Force y: " << forceY;
 
 		AddShape(ball);
 		balls.push_back(ball);

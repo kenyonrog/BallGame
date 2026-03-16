@@ -51,6 +51,12 @@
     <ClCompile Include="UiButton.cpp">
       <Filter>Source Files\UiElement</Filter>
     </ClCompile>
+    <ClCompile Include="UiTextLabel.cpp">
+      <Filter>Source Files\UiElement</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyManager.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -76,6 +82,18 @@
     </ClInclude>
     <ClInclude Include="UiElement.h">
       <Filter>Header Files\UiElement</Filter>
+    </ClInclude>
+    <ClInclude Include="UiTextLabel.h">
+      <Filter>Header Files\UiElement</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAmounts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

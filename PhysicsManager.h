@@ -1,9 +1,10 @@
 #pragma once
+#include "Subject.h"
 #include <box2d/box2d.h>
 #include <raymath.h>
 #include "Conversions.h"
 
-class PhysicsManager {
+class PhysicsManager : public Subject {
 public:
 	template <typename Vector>
 	inline PhysicsManager(Vector gravity) {
@@ -17,6 +18,8 @@ public:
 
 	void Update();
 	inline b2WorldId* GetWorld() { return &m_world; }
+
+	inline void OnShapeCollision(Observer* observer) { AddObserver(observer); }
 
 private:
 	b2WorldId m_world{};

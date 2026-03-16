@@ -5,20 +5,18 @@
 class UiButton : public UiElement {
 public:
 	inline UiButton(Vector2 position, float width, float height)
-		: UiElement(position)
-	{
-		m_width = width;
-		m_height = height;
-	}
+		: UiElement(position, width, height)
+	{}
 
 	virtual void Draw();
 	virtual void Update();
 
-	inline void OnButtonClicked(std::function<void()> f) { m_connections.push_back(f); }
+	inline bool isMouseOverlappingUiElement() {
+		Vector2 cursorPos{ GetMousePosition() };
+		bool isOverlappingX{ cursorPos.x >= m_position.x && cursorPos.x <= m_position.x + m_width };
+		bool isOverlappingY{ cursorPos.y >= m_position.y && cursorPos.y <= m_position.y + m_height };
+		return (isOverlappingX && isOverlappingY);
+	}
 
-private:
-	std::vector<std::function<void()>> m_connections;
-
-	float m_width;
-	float m_height;
+	inline void OnButtenClicked(Observer* obserever) { AddObserver(obserever); }
 };

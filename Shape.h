@@ -3,8 +3,9 @@
 #include <raymath.h>
 #include <box2d/box2d.h>
 #include "Conversions.h"
+#include "Subject.h"
 
-class Shape {
+class Shape : public Subject {
 public:
 	Shape(b2WorldId *worldId, b2BodyDef bodyDef, b2ShapeDef shapeDef) {
 		m_world = *worldId;

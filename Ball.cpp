@@ -7,6 +7,10 @@ void Ball::InitPhysics(const b2BodyDef bodyDef, const b2ShapeDef shapeDef) {
 	b2CreateCircleShape(m_body, &shapeDef, &circle);
 }
 
+void Ball::Update() {
+	
+}
+
 void Ball::Draw() {
 	b2Vec2 b2Position{ b2Body_GetPosition(m_body) };
 	Vector2 pixelPosition{ b2Vec2ToVector2(b2Position) };

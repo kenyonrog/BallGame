@@ -13,6 +13,11 @@ public:
 	void InitPhysics(b2BodyDef bodyDef, b2ShapeDef shapeDef);
 
 	void Draw();
+	void Update();
+
+	inline float GetRadius() { return m_radius; }
+
+	inline void OnBallCollision(Observer* observer) { AddObserver(observer); }
 
 private:
 	float m_radius;
