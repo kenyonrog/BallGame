@@ -1,6 +1,0 @@
-Downloading https://github.com/mackron/dr_libs/archive/1d7bfaf0c3821c820164a7a6b2742523503a2ce3.tar.gz -> mackron-dr_libs-1d7bfaf0c3821c820164a7a6b2742523503a2ce3.tar.gz
-Successfully downloaded mackron-dr_libs-1d7bfaf0c3821c820164a7a6b2742523503a2ce3.tar.gz
--- Extracting source C:/Users/Roger/AppData/Local/vcpkg/downloads/mackron-dr_libs-1d7bfaf0c3821c820164a7a6b2742523503a2ce3.tar.gz
--- Using source at C:/Users/Roger/source/repos/BallGame/vcpkg_installed/vcpkg/blds/drlibs/src/23503a2ce3-7a03aa0710.clean
--- Installing: C:/Users/Roger/source/repos/BallGame/vcpkg_installed/vcpkg/pkgs/drlibs_x64-windows/share/drlibs/copyright
--- Performing post-build validation

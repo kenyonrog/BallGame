@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/Roger/source/repos/BallGame/vcpkg_installed/vcpkg/blds/raylib/x64-windows-dbg/cmake_install.cmake",
-		"C:/Users/Roger/source/repos/BallGame/vcpkg_installed/vcpkg/blds/raylib/x64-windows-dbg/raylib/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
